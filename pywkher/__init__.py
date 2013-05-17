@@ -29,7 +29,7 @@ def generate_pdf(html='', url='', cmd=None, chmod=False, args=['-q']):
 
     if html:
         # Save the HTML to a temp file
-        html_file = NamedTemporaryFile(suffix='.html')
+        html_file = NamedTemporaryFile(suffix='.html', bufsize=0)
         html_file.write(html)
 
         # wkhtmltopdf
