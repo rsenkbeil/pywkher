@@ -1,11 +1,11 @@
 from setuptools import setup
 
 setup(
-    name='pywkher',
-    version='1.0.0',
-    url='https://github.com/codetalkrs/pywkher',
-    author='Jason Mayfield',
-    author_email='jason@codetalk.rs',
+    name='pywkher-new-params',
+    version='1.0.4',
+    url='https://github.com/rsenkbeil/pywkher',
+    author='Ryan Senkbeil',
+    author_email='ryan.senkbeil@gsdesign.com',
     packages=['pywkher', ],
     package_data={'pywkher': ['bin/wkhtmltopdf-heroku']},
     description='wkhtmltopdf for Python on Heroku',
